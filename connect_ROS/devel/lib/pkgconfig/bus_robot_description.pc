@@ -1,0 +1,8 @@
+prefix=/home/sp/Gazebo_learning/connect_ROS/devel
+
+Name: bus_robot_description
+Description: Description of bus_robot_description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sp/Gazebo_learning/connect_ROS/devel/lib 
+Requires: 
