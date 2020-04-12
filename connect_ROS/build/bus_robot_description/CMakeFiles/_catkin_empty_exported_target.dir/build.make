@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sp/Gazebo_learning/connect_ROS/src
+CMAKE_SOURCE_DIR = /home/sp/ROS_Gazebo_learning/connect_ROS/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sp/Gazebo_learning/connect_ROS/build
+CMAKE_BINARY_DIR = /home/sp/ROS_Gazebo_learning/connect_ROS/build
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -63,10 +63,10 @@ bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build: _catki
 .PHONY : bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 
 bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	cd /home/sp/Gazebo_learning/connect_ROS/build/bus_robot_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
+	cd /home/sp/ROS_Gazebo_learning/connect_ROS/build/bus_robot_description && $(CMAKE_COMMAND) -P CMakeFiles/_catkin_empty_exported_target.dir/cmake_clean.cmake
 .PHONY : bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/sp/Gazebo_learning/connect_ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sp/Gazebo_learning/connect_ROS/src /home/sp/Gazebo_learning/connect_ROS/src/bus_robot_description /home/sp/Gazebo_learning/connect_ROS/build /home/sp/Gazebo_learning/connect_ROS/build/bus_robot_description /home/sp/Gazebo_learning/connect_ROS/build/bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sp/ROS_Gazebo_learning/connect_ROS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sp/ROS_Gazebo_learning/connect_ROS/src /home/sp/ROS_Gazebo_learning/connect_ROS/src/bus_robot_description /home/sp/ROS_Gazebo_learning/connect_ROS/build /home/sp/ROS_Gazebo_learning/connect_ROS/build/bus_robot_description /home/sp/ROS_Gazebo_learning/connect_ROS/build/bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bus_robot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
 

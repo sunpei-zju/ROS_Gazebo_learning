@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-88-generic - x86_64
+The system is: Linux - 4.15.0-96-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_50f6d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_50f6d.dir/build.make CMakeFiles/cmTC_50f6d.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_50f6d.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_50f6d.dir/testCCompiler.c.o   -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_50f6d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50f6d.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_50f6d.dir/testCCompiler.c.o  -o cmTC_50f6d -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_328f0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_328f0.dir/build.make CMakeFiles/cmTC_328f0.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_328f0.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_328f0.dir/testCCompiler.c.o   -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_328f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_328f0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_328f0.dir/testCCompiler.c.o  -o cmTC_328f0 -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5a81a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5a81a.dir/build.make CMakeFiles/cmTC_5a81a.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_5a81a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a81a.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o  -o cmTC_5a81a -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_207cb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_207cb.dir/build.make CMakeFiles/cmTC_207cb.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_207cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_207cb.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o  -o cmTC_207cb -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a81a' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccn625vL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5a81a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_207cb' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaLzfvO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_207cb /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5a81a/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5a81a.dir/build.make CMakeFiles/cmTC_5a81a.dir/build]
-  ignore line: [make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_5a81a]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a81a.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o  -o cmTC_5a81a -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_207cb/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_207cb.dir/build.make CMakeFiles/cmTC_207cb.dir/build]
+  ignore line: [make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_207cb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_207cb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o  -o cmTC_207cb -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5a81a' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccn625vL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_5a81a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_207cb' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaLzfvO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_207cb /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccn625vL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccaLzfvO.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5a81a] ==> ignore
+    arg [cmTC_207cb] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_5a81a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_207cb.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_27937/fast"
-/usr/bin/make -f CMakeFiles/cmTC_27937.dir/build.make CMakeFiles/cmTC_27937.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_27937.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_27937.dir/feature_tests.c.o   -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_27937
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27937.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_27937.dir/feature_tests.c.o  -o cmTC_27937 -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_08d7e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_08d7e.dir/build.make CMakeFiles/cmTC_08d7e.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08d7e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_08d7e.dir/feature_tests.c.o   -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_08d7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d7e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_08d7e.dir/feature_tests.c.o  -o cmTC_08d7e -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFile
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_adc29/fast"
-/usr/bin/make -f CMakeFiles/cmTC_adc29.dir/build.make CMakeFiles/cmTC_adc29.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_adc29.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_adc29.dir/feature_tests.c.o   -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_adc29
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adc29.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_adc29.dir/feature_tests.c.o  -o cmTC_adc29 -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b0498/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0498.dir/build.make CMakeFiles/cmTC_b0498.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0498.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_b0498.dir/feature_tests.c.o   -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b0498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0498.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_b0498.dir/feature_tests.c.o  -o cmTC_b0498 -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFile
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_dfffc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_dfffc.dir/build.make CMakeFiles/cmTC_dfffc.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dfffc.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_dfffc.dir/feature_tests.c.o   -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_dfffc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfffc.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_dfffc.dir/feature_tests.c.o  -o cmTC_dfffc -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0a75d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a75d.dir/build.make CMakeFiles/cmTC_0a75d.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a75d.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_0a75d.dir/feature_tests.c.o   -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0a75d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a75d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0a75d.dir/feature_tests.c.o  -o cmTC_0a75d -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFile
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_001f3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_001f3.dir/build.make CMakeFiles/cmTC_001f3.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_001f3.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_001f3.dir/testCXXCompiler.cxx.o -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_001f3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_001f3.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_001f3.dir/testCXXCompiler.cxx.o  -o cmTC_001f3 -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5ba74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ba74.dir/build.make CMakeFiles/cmTC_5ba74.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ba74.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_5ba74.dir/testCXXCompiler.cxx.o -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5ba74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ba74.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5ba74.dir/testCXXCompiler.cxx.o  -o cmTC_5ba74 -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98aad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98aad.dir/build.make CMakeFiles/cmTC_98aad.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_98aad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98aad.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98aad -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_2b45c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b45c.dir/build.make CMakeFiles/cmTC_2b45c.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2b45c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b45c.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2b45c -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98aad' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccz93Ty0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_98aad /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b45c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5FcWJd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2b45c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_98aad/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_98aad.dir/build.make CMakeFiles/cmTC_98aad.dir/build]
-  ignore line: [make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_98aad]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98aad.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98aad -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2b45c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2b45c.dir/build.make CMakeFiles/cmTC_2b45c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2b45c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b45c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2b45c -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98aad' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccz93Ty0.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_98aad /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2b45c' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5FcWJd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2b45c /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccz93Ty0.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5FcWJd.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_98aad] ==> ignore
+    arg [cmTC_2b45c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_98aad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2b45c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9146e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9146e.dir/build.make CMakeFiles/cmTC_9146e.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9146e.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_9146e.dir/feature_tests.cxx.o -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_9146e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9146e.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_9146e.dir/feature_tests.cxx.o  -o cmTC_9146e -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5e511/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e511.dir/build.make CMakeFiles/cmTC_5e511.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e511.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_5e511.dir/feature_tests.cxx.o -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5e511
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e511.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5e511.dir/feature_tests.cxx.o  -o cmTC_5e511 -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFile
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb662/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bb662.dir/build.make CMakeFiles/cmTC_bb662.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bb662.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_bb662.dir/feature_tests.cxx.o -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bb662
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb662.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_bb662.dir/feature_tests.cxx.o  -o cmTC_bb662 -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7670f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7670f.dir/build.make CMakeFiles/cmTC_7670f.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7670f.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_7670f.dir/feature_tests.cxx.o -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7670f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7670f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7670f.dir/feature_tests.cxx.o  -o cmTC_7670f -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFile
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8cfc2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8cfc2.dir/build.make CMakeFiles/cmTC_8cfc2.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8cfc2.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_8cfc2.dir/feature_tests.cxx.o -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8cfc2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cfc2.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_8cfc2.dir/feature_tests.cxx.o  -o cmTC_8cfc2 -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1210e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1210e.dir/build.make CMakeFiles/cmTC_1210e.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1210e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_1210e.dir/feature_tests.cxx.o -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1210e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1210e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1210e.dir/feature_tests.cxx.o  -o cmTC_1210e -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,30 +553,30 @@ make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFile
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_505b7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_505b7.dir/build.make CMakeFiles/cmTC_505b7.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_505b7.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_505b7.dir/CheckIncludeFile.c.o   -c /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_505b7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_505b7.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_505b7.dir/CheckIncludeFile.c.o  -o cmTC_505b7 -rdynamic 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_77565/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77565.dir/build.make CMakeFiles/cmTC_77565.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77565.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_77565.dir/CheckIncludeFile.c.o   -c /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_77565
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77565.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77565.dir/CheckIncludeFile.c.o  -o cmTC_77565 -rdynamic 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
+Change Dir: /home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_aeaf6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_aeaf6.dir/build.make CMakeFiles/cmTC_aeaf6.dir/build
-make[1]: Entering directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aeaf6.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aeaf6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_aeaf6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aeaf6.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_aeaf6.dir/CheckFunctionExists.c.o  -o cmTC_aeaf6 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/sp/Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_cee2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cee2e.dir/build.make CMakeFiles/cmTC_cee2e.dir/build
+make[1]: Entering directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cee2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cee2e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cee2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee2e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cee2e.dir/CheckFunctionExists.c.o  -o cmTC_cee2e -rdynamic -lpthread 
+make[1]: Leaving directory '/home/sp/ROS_Gazebo_learning/connect_ROS/build/CMakeFiles/CMakeTmp'
 
 

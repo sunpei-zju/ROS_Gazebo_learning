@@ -1,8 +1,8 @@
-prefix=/home/sp/Gazebo_learning/connect_ROS/install
+prefix=/home/sp/ROS_Gazebo_learning/connect_ROS/install
 
 Name: bus_robot_description
 Description: Description of bus_robot_description
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/sp/Gazebo_learning/connect_ROS/install/lib 
+Libs: -L/home/sp/ROS_Gazebo_learning/connect_ROS/install/lib 
 Requires: 

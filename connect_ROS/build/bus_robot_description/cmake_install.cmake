@@ -1,8 +1,8 @@
-# Install script for directory: /home/sp/Gazebo_learning/connect_ROS/src/bus_robot_description
+# Install script for directory: /home/sp/ROS_Gazebo_learning/connect_ROS/src/bus_robot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sp/Gazebo_learning/connect_ROS/install")
+  set(CMAKE_INSTALL_PREFIX "/home/sp/ROS_Gazebo_learning/connect_ROS/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sp/Gazebo_learning/connect_ROS/build/bus_robot_description/catkin_generated/installspace/bus_robot_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sp/ROS_Gazebo_learning/connect_ROS/build/bus_robot_description/catkin_generated/installspace/bus_robot_description.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bus_robot_description/cmake" TYPE FILE FILES
-    "/home/sp/Gazebo_learning/connect_ROS/build/bus_robot_description/catkin_generated/installspace/bus_robot_descriptionConfig.cmake"
-    "/home/sp/Gazebo_learning/connect_ROS/build/bus_robot_description/catkin_generated/installspace/bus_robot_descriptionConfig-version.cmake"
+    "/home/sp/ROS_Gazebo_learning/connect_ROS/build/bus_robot_description/catkin_generated/installspace/bus_robot_descriptionConfig.cmake"
+    "/home/sp/ROS_Gazebo_learning/connect_ROS/build/bus_robot_description/catkin_generated/installspace/bus_robot_descriptionConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bus_robot_description" TYPE FILE FILES "/home/sp/Gazebo_learning/connect_ROS/src/bus_robot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bus_robot_description" TYPE FILE FILES "/home/sp/ROS_Gazebo_learning/connect_ROS/src/bus_robot_description/package.xml")
 endif()
 
