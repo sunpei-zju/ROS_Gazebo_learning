@@ -1,0 +1,16 @@
+simple_car:
+# controls the rear two tires based on individual motors
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+
+  # Controllers -----------------------------------
+  rear_left_wheel_joint_controller:
+    type: velocity_controllers/JointVelocityController
+    joint: rear_left_wheel_joint
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+  rear_right_wheel_joint_controller:
+    type: velocity_controllers/JointVelocityController 
+    joint: rear_right_wheel_joint 
+    pid: {p: 100.0, i: 0.01, d: 10.0}

@@ -4,4 +4,20 @@
     <arg name="world_name" value="$(find bus_robot_gazebo)/worlds/bus_robot.world"/>
     <!-- more default parameters can be changed here -->
   </include>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find bus_robot_description)/urdf/simple_car.xacro'"/>
+
+	<node name="spawn_model" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x 0.0 -y 0.0 -z 0.0 -model simple -param robot_description"/>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find bus_robot_control)/config/bus_robot_control.yaml" command="load"/>
+
+  <!-- load controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+        output="screen" ns="/simple_car" args="joint_state_controller rear_left_wheel_joint_controller rear_right_wheel_joint_controller"/>
+
+  <!--node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+      respawn="true" output="screen">
+      <remap from="/joint_states" to="/simple/joint_states" />
+  </node-->
+
 </launch>

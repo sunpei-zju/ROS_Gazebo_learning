@@ -1,2 +1,2 @@
-bus_robot_description:bus_robot_gazebo
+bus_robot_control:bus_robot_description:bus_robot_gazebo
 -DCATKIN_DEVEL_PREFIX=/home/sp/ROS_Gazebo_learning/connect_ROS/devel -DCMAKE_INSTALL_PREFIX=/home/sp/ROS_Gazebo_learning/connect_ROS/install -G Unix Makefiles
